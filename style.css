@@ -1,0 +1,221 @@
+html {
+    font-size: 18px;
+    text-align: center;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    align-content: center;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: -5rem;
+}
+
+#logo img {
+    width: 17rem;
+    position: relative;
+    left: -2.75rem;
+    top: -1rem;
+}
+
+#intro {
+    align-self: center;
+    z-index: 2;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+nav {
+    width: 4rem;
+}
+
+ul {
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+    background-color: white;
+}
+
+#accueil {
+    border-bottom: dotted 1px rgb(255, 208, 0);
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(204, 25, 55);
+}
+
+/*testimonials*/
+
+.testimonials {
+    position: relative;
+    top: 10rem;
+    width: 80%;
+    margin: 0 auto;
+    border: solid 2px rgba(255, 208, 0, 0.75);
+    border-radius: 15px;
+    color: rgb(204, 25, 55);
+    text-shadow: 2px 1px 3px white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25rem;
+}
+
+.a-propos {
+    display: inline-flex;
+}
+
+.a-propos img {
+    width: 50%;
+    position: relative;
+    top: 13rem;
+    float: left;
+}
+
+.info {
+    border: solid 2px rgba(255, 208, 0, 0.75);
+    width: 35%;
+    position: relative;
+    left: 52%;
+    border-radius: 15px;
+    text-shadow: 2px 1px 3px white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+    color: rgb(204, 25, 55);
+}
+
+.info h2 {
+    margin-top: -0.3rem;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.separateur {
+    background-color: rgb(204, 25, 55);
+    background-size: cover;
+    height: 2rem;
+    position: relative;
+    top: 7rem;
+    margin-top: 5rem;
+}
+
+#real {
+    position: relative;
+    top: 7rem;
+    text-decoration: underline;
+}
+
+.photos {
+    display: grid;
+    justify-content: space-evenly;
+    max-width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10rem auto;
+    gap: 1rem;
+}
+
+.photos img {
+    max-height: 17rem;
+    justify-self: center;
+}
+
+.tarifs {    
+    border: solid 2px rgba(255, 208, 0, 0.75);
+    width: 35%;
+    position: relative;
+    border-radius: 15px;
+    text-shadow: 2px 1px 3px white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 6rem 0rem;
+    color: rgb(204, 25, 55);
+    align-content: center;
+    align-items: center;
+}
+
+.tarifs h2 {
+    margin-top: -0.3rem;
+    text-decoration: underline;
+}
+
+.tarif-horaire {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -5rem;
+    margin: 0 auto;
+    flex: 1;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+table {
+    border: solid 2px rgba(255, 208, 0, 0.75);
+    border-radius: 15px;
+    text-shadow: 2px 1px 3px white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+    color: rgb(204, 25, 55);
+    position: relative;
+    left: -15%;
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+
+#contact {
+    font-size: 1.2rem;;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+footer .info h2 {
+    text-align: center;
+}
+
+.separateur2 {
+    background-color: rgb(204, 25, 55);
+    background-size: cover;
+    height: 2rem;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.contact {    
+    border: solid 2px rgba(255, 208, 0, 0.75);
+    width: 35%;
+    position: relative;
+    top: -6rem;
+    border-radius: 15px;
+    text-shadow: 2px 1px 3px white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2rem 0rem;
+    color: rgb(204, 25, 55);
+    margin: 0 auto;
+    flex: 1;
+}
+
+@media only screen (max-width: 480px) {
+    header #intro {
+        display: none;
+    }
+}
